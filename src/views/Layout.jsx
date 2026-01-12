@@ -79,7 +79,7 @@ export function Layout() {
         login={login}
         logout={logout}
       />
-      <section className="bg-amber-200 flex justify-center">
+      <section className="bg-cyan-400 flex justify-center">
         <Outlet context={{ user, authLoading, apiBase }} />
       </section>
     </div>

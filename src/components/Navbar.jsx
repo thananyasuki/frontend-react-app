@@ -22,7 +22,7 @@ export function Navbar({ user, authLoading, authError, login, logout }) {
 
   return (
     <nav>
-      <div className="flex justify-between px-10 items-center w-full bg-teal-500 h-14 border-b-2 border-black gap-x-6 text-2xl text-white ">
+      <div className="flex justify-between px-10 items-center w-full bg-fuchsia-200 h-14 border-b-2 border-black gap-x-6 text-2xl text-white ">
         <ul className="flex items-center gap-x-6">
           <li>
             <Link to="/" className="hover:text-yellow-500">
